@@ -1,0 +1,27 @@
+.text-center{
+    text-align: center;
+    color: #FFF8E3;
+    text-transform: uppercase;
+    font-weight:bolder;
+    letter-spacing: 1.5px;
+    padding:20px 0px;
+  }
+  
+  .bg-red{
+    background: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }

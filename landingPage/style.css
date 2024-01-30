@@ -1,0 +1,133 @@
+/* p{
+    background-color: red;
+} */
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: Georgia, 'Times New Roman', Times, serif;  
+color: #fff;  
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.contaier{
+ width: 100%;
+ height: 100%;
+ background-color: #000;
+}
+.nav-p-1{
+    height:80px;
+    width: 100%;
+    /* background-color: #feb27f; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 80px;
+    border-bottom: 2px solid white;
+}
+.h-1{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 25px;
+    padding: 10px;
+    padding-top:5px;
+}
+.nav-p-2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.line{
+    width: 50px;
+    height: 2px;
+    background: red;
+}
+.nav-p-2 img{
+    height:100%;
+    width: 100px;
+    background: transparent;
+}
+.main-section{
+    height:calc(100% - 80px);
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 36%;
+    margin-top: 90px;
+}
+h1{
+    font-size:44px;
+    /* padding-top:100px; */
+    padding:60px;
+    font-weight: 600;
+    line-height:53px;
+    padding-bottom: 0px;
+}
+span{
+    color: red;
+    font-weight: 400;
+}
+.left-para{
+   padding: 0px 60px;
+   padding-top: 30px;
+   line-height: 25px;
+   
+}
+.button{
+   background: red;
+   padding: 20px 30px;
+   border: none;
+   border-radius: 50px;
+   margin: 30px 60px;
+}
+.center{
+    height:100%;
+    width: 28%;
+}
+.center-bg{
+    height:90%;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 0px;
+    background:#fff;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+.center-bg>img{
+    height: 100%;
+}
+.right{
+    width: 36%;
+    height:calc(100% - 100px);
+    margin-top: 200px;
+    padding-left: 70px;
+}
+.elem1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid  #f7d9c5;
+    font-weight: 100;
+}
+.intg{
+    border-bottom: 3px solid  #f7d9c5;
+    width: 60%;
+}
+.right-para{
+    width: 65%;
+    text-align: justify;
+    padding-top:15px ;
+}
+
